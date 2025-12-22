@@ -41,7 +41,7 @@ export default function Home() {
               marginTop: "0.5rem",
             }}
           >
-            Visit Us on Facebook
+            Visit on Facebook
           </a>
         </div>
 
