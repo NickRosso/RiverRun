@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
 
           <nav>
             <a href="/">Home</a>
-            <a href="/about">About</a>
             <a href="/adopt">Adopt</a>
             <a href="/contact">Contact</a>
           </nav>
