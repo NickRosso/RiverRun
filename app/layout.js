@@ -25,8 +25,14 @@ export default function RootLayout({ children }) {
               alt="River Run Ranch Logo"
               style={{ height: "60px", width: "auto" }}
             />
-            <h1 style={{ margin: 0, fontSize: "1.5rem" }}>
-              River Run Ranch Animal Rescue
+            <h1
+              style={{
+                margin: 0,
+                lineHeight: 1.2,
+              }}
+            >
+              <span className="title-full">River Run Ranch Animal Rescue</span>
+              <span className="title-short">River Run</span>
             </h1>
           </div>
 

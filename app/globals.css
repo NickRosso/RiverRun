@@ -46,3 +46,52 @@ footer {
 iframe {
   max-width: 100%;
 }
+
+
+/* Header title defaults (desktop) */
+.title-full {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.title-short {
+  display: none;
+  font-size: 1.25rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  header {
+    padding: 0.75rem 1rem;
+  }
+
+  header img {
+    height: 44px;
+  }
+
+  .title-full {
+    display: none;
+  }
+
+  .title-short {
+    display: inline;
+  }
+}
+
+/* Very small screens */
+@media (max-width: 420px) {
+  .title-short {
+    font-size: 1.1rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    margin-left: 0.75rem;
+  }
+}
+
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
