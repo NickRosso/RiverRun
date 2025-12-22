@@ -1,0 +1,48 @@
+:root {
+  --green-dark: #1f4d1b;
+  --green-light: #4caf50;
+  --orange: #f36c3d;
+  --red: #e4573b;
+  --cream: #f5f2d0;
+  --bg: #fafafa;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: #222;
+}
+
+a {
+  color: var(--green-dark);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+header {
+  background: var(--green-dark);
+  color: var(--cream);
+  padding: 1rem 2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: var(--cream);
+}
+
+footer {
+  background: var(--green-dark);
+  color: var(--cream);
+  padding: 1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+iframe {
+  max-width: 100%;
+}
