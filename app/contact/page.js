@@ -22,7 +22,7 @@ export default function Contact() {
             Kingsland, TX
         </li>
       </ul>
-      <h3>Follow Us</h3>
+      <h3>See Us In Action</h3>
       <ul>
         <li>
           <a href="https://www.facebook.com/riverrunranchrescue" target="_blank">
@@ -34,6 +34,9 @@ export default function Contact() {
             Instagram
           </a>
         </li>
+      </ul>
+      <h3>Help Our Cause With A Donation</h3>
+      <ul>
         <li>
           <a href="https://venmo.com/u/Riverrunanimalrescue?fbclid=IwY2xjawO1eRZleHRuA2FlbQIxMABicmlkETF4UVBKTmpGYmppalRsTU9qc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHutIzFURWi3FJcXLhfcP1AFZse1sIZn2Vh2m8RGo8oZ6KNquI1rRRv9yCqDq_aem_reELR4SnPl4C64oUw8_E1Q" target="_blank">
             Venmo
